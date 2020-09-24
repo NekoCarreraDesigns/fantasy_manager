@@ -10,7 +10,7 @@ const Navbar = (props) => {
         <div>
             <Nav className="navbar">
                 <NavItem>
-                    <NavLink className="navbar-link" href="#" active>Link</NavLink>
+                    <NavLink className="navbar-link" href="/" active>Home</NavLink>
                 </NavItem>
                 <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
                     <DropdownToggle className="drop" nav caret>
@@ -24,13 +24,13 @@ const Navbar = (props) => {
                     </DropdownMenu>
                 </Dropdown>
                 <NavItem>
-                    <NavLink className="navbar-link" href="#">Stats</NavLink>
+                    <NavLink className="navbar-link" href="/api/stats">Stats</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className="navbar-link" href="#">Players</NavLink>
+                    <NavLink className="navbar-link" href="api/players">Players</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className="navbar-link" href="#">Standings</NavLink>
+                    <NavLink className="navbar-link" href="api/standings/:id">Standings</NavLink>
                 </NavItem>
             </Nav>
         </div>
