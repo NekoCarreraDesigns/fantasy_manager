@@ -26,6 +26,7 @@
   "homepage": "https://github.com/NekoCarreraDesigns/fantasy_manager#readme",
   "dependencies": {
     "axios": "^0.20.0",
+    "bcrypt": "^5.0.0",
     "express": "^4.17.1",
     "express-session": "^1.17.1"
   }
