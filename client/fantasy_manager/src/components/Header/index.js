@@ -4,7 +4,7 @@ import "./index.css";
 function Header() {
     return (
         <div>
-            <header className="page-head"><i class="fas fa-football-ball"></i>{' '} Fantasy Manager {' '}<i class="fas fa-football-ball"></i></header>
+            <header className="page-head"><i className="fas fa-football-ball"></i>{' '} Fantasy Manager {' '}<i className="fas fa-football-ball"></i></header>
         </div>
     )
 }

@@ -2,11 +2,22 @@
     background-color: green;
 }
 
+.navbar-link:hover {
+    color: red;
+}
+.drop:hover {
+    color: red;
+}
+
+
 .navbar-link {
     color: gold;
     background-color: green;
 }
-.drop {
+.drop, .drop-menu, .drop0, .drop1, .drop2 {
     color: gold;
     background-color: green;
 }
+ .drop-head {
+     color: gold;
+ }

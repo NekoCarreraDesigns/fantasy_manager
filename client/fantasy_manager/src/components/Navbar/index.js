@@ -16,22 +16,21 @@ const Navbar = (props) => {
                     <DropdownToggle className="drop" nav caret>
                         Dropdown
           </DropdownToggle>
-                    <DropdownMenu>
-                        <DropdownItem header>Header</DropdownItem>
-                        <DropdownItem disabled>Action</DropdownItem>
-                        <DropdownItem>Another Action</DropdownItem>
-                        <DropdownItem divider />
-                        <DropdownItem>Another Action</DropdownItem>
+                    <DropdownMenu className="drop-menu">
+                        <DropdownItem className="drop-head" header>Your Teams</DropdownItem>
+                        <DropdownItem className="drop0">Team0</DropdownItem>
+                        <DropdownItem className="drop1">Team1</DropdownItem>
+                        <DropdownItem className="drop2">Team2</DropdownItem>
                     </DropdownMenu>
                 </Dropdown>
                 <NavItem>
-                    <NavLink className="navbar-link" href="#">Link</NavLink>
+                    <NavLink className="navbar-link" href="#">Stats</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className="navbar-link" href="#">Another Link</NavLink>
+                    <NavLink className="navbar-link" href="#">Players</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className="navbar-link" href="#">Disabled Link</NavLink>
+                    <NavLink className="navbar-link" href="#">Standings</NavLink>
                 </NavItem>
             </Nav>
         </div>
