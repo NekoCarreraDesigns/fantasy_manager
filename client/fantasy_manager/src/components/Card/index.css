@@ -1,4 +1,5 @@
 .player-card {
+    margin-top: 10px;
     position: relative;
     justify-content: center;
     width: 400px;
@@ -19,10 +20,12 @@
      color: gold;
      width: 400px;
      height: 800px;
+     margin-top: 10px;
  }
 
  .right-said-fred {
      float: right;
+     margin-top: 10px;
      height: 800px;
      width: 400px;
      background-color: green;

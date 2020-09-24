@@ -3,7 +3,7 @@ import "./index.css";
 
 function Players() {
     return (
-        <div>
+        <div size="fluid">
             <div className="player-card" className="lefty">
                 <div>
                     <h3>Team Name</h3>
