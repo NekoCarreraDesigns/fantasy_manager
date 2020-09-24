@@ -14,7 +14,7 @@ const Navbar = (props) => {
                 </NavItem>
                 <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
                     <DropdownToggle className="drop" nav caret>
-                        Dropdown
+                        Teams
           </DropdownToggle>
                     <DropdownMenu className="drop-menu">
                         <DropdownItem className="drop-head" header>Your Teams</DropdownItem>

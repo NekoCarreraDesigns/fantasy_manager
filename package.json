@@ -1,0 +1,27 @@
+{
+  "name": "fantasy_manager",
+  "version": "1.0.0",
+  "description": "Fantasy Manager App",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NekoCarreraDesigns/fantasy_manager.git"
+  },
+  "keywords": [
+    "Fantasy",
+    "Manager",
+    "React",
+    "Node",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Nicholas C. Maas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NekoCarreraDesigns/fantasy_manager/issues"
+  },
+  "homepage": "https://github.com/NekoCarreraDesigns/fantasy_manager#readme"
+}
