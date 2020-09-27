@@ -1,0 +1,16 @@
+.searchbar {
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: gold 1px 1px 1px 1px;
+}
+
+.search-btn {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.search-btn:hover {
+    background-color: gold;    
+}
