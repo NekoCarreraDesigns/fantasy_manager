@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Navbar from "../../components/Navbar/index"
+import React from "react";
 import "./index.css";
 
 function Players(props) {
