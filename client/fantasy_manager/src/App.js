@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Searchbar />
       {/* <Players /> */}
-      <Results />
+      {/* <Results /> */}
 
 
       <Footer />
