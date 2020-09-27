@@ -1,18 +1,21 @@
 import React, { useState } from "react";
+// import Results from "../../components/Results/index"
 import "./index.css";
 
 function Searchbar() {
-    const [searchInput, setSearchInput] = useState("");
-    // const userSearch = () => {
-    //     axios({
-    //         method: "GET",
-    //         url: `/api/players/${searchInput}`
-    //     }).then((res) => console.log(res.data))
-    // }
+    const [showResults, setShowResults] = useState(false);
+    const onSubmit = () => setShowResults(true)
+
+
     return (
         <div>
-            <input className="searchbar" placeholder="search players or leagues"></input>
-            <button className="search-btn"><i className="fas fa-search icon"></i></button>
+            <div>
+                <input onSubmit={onSubmit} className="searchbar" placeholder="search players or leagues"></input>
+                <button className="search-btn"><i className="fas fa-search icon"></i></button>
+            </div>
+            <div>
+                {/* {showResults ? <Results /> : null} */}
+            </div>
         </div>
     );
 };
