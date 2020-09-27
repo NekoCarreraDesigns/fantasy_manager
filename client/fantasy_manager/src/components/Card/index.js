@@ -1,28 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
+import Navbar from "../../components/Navbar/index"
 import "./index.css";
 
-function Players() {
+function Players(props) {
+
     return (
         <div size="fluid">
-            <div className="player-card" className="lefty">
+            <div href="/players/team0" className="player-card" className="lefty">
                 <div>
-                    <h3>Team Name</h3>
-                    <p>Players</p>
-                    <p>Points</p>
+                    <h3>{props.team}</h3>
+                    <p>{props.players}</p>
+                    <p>{props.points}</p>
                 </div>
             </div>
-            <div className="player-card">
+            <div href="/players/team1" className="player-card">
                 <div>
-                    <h3>Team Name</h3>
-                    <p>Players</p>
-                    <p>Points</p>
+                    <h3>{props.team}</h3>
+                    <p>{props.players}</p>
+                    <p>{props.points}</p>
                 </div>
             </div>
-            <div className="player-card" className="right-said-fred">
+            <div href="/players/team2" className="player-card" className="right-said-fred">
                 <div>
-                    <h3>Team Name</h3>
-                    <p>Players</p>
-                    <p>Points</p>
+                    <h3>{props.team}</h3>
+                    <p>{props.players}</p>
+                    <p>{props.points}</p>
                 </div>
             </div>
         </div>

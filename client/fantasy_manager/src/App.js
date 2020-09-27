@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Navbar />
       <Searchbar />
-      <Players />
+      {/* <Players /> */}
 
 
       <Footer />
